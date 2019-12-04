@@ -1,0 +1,3 @@
+/home/maxforce01/Документы/ConsoleShop-2019/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/maxforce01/Документы/ConsoleShop-2019/cmake-build-debug/CMakeFiles/ConsoleShop_2019.dir
+/home/maxforce01/Документы/ConsoleShop-2019/cmake-build-debug/CMakeFiles/edit_cache.dir

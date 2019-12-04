@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/ConsoleShop_2019.dir/main.cpp.o  -o ConsoleShop_2019 
