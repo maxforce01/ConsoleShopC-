@@ -11,6 +11,8 @@
 #include "InvalidCommand.h"
 #include "SaveProductIntoBucket.h"
 #include "ShowBucketCommand.h"
+#include "BuyProductsCommand.h"
+#include "AllOrdersCommand.h"
 
 
 class CommandContainer {
@@ -47,6 +49,9 @@ private:
         commands.insert(pair<string, Command *>(saveState, saveStateCommand));
         commands.insert(pair<string, Command *>(deleteProduct, deleteProductCommand));
         commands.insert(pair<string, Command *>(updateProduct, updateProductCommand));
+        string orders = "--orders";
+        Command *allOrdersCommand = new AllOrdersCommand(context);
+        commands.insert(pair<string, Command *>(orders, allOrdersCommand));
     }
 
     void initUserStrategy(Context context) {
@@ -54,14 +59,18 @@ private:
         string saveState = "--state";
         string saveToBucket = "--saveItem";
         string showBucket = "--bucket";
+        string buyAll = "--buy";
         Command *saveStateCommand = new SaveStateCommand(context);
         Command *allProductsCommand = new AllProducts(context);
         Command *saveToBucketCommand = new SaveProductIntoBucket(context);
         Command *showBucketCommand = new ShowBucketCommand(context);
+        Command *buyAllCommand = new BuyProductsCommand(context);
         commands.insert(pair<string, Command *>(allProducts, allProductsCommand));
         commands.insert(pair<string, Command *>(saveState, saveStateCommand));
         commands.insert(pair<string, Command *>(saveToBucket, saveToBucketCommand));
         commands.insert(pair<string, Command *>(showBucket, showBucketCommand));
+        commands.insert(pair<string, Command *>(buyAll, buyAllCommand));
+
     }
 
     void initCommands(const Context &context) {

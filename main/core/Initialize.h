@@ -12,7 +12,8 @@ public:
     explicit Initialize() {
         auto *bucks = new BucketService(initBucket());
         auto *prods = new ProductService(initProducts());
-        context = new Context(prods, bucks);
+        auto *orders = new OrderService(initOrders());
+        context = new Context(prods, bucks, orders);
     }
 
     Context getContext() {
@@ -30,5 +31,11 @@ private:
         auto *productDao = new ProductDao();
         productDao->loadFromJson();
         return productDao;
+    }
+
+    static OrderDao *initOrders() {
+        auto *orderDao = new OrderDao();
+        orderDao->loadFromJson();
+        return orderDao;
     }
 };

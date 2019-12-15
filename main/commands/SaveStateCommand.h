@@ -10,6 +10,7 @@ public:
 
     string execute(Request request) override {
         context.getProductService().saveProductList();
+        context.getOrderService().saveState();
         return std::__cxx11::string();
     }
 

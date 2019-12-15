@@ -39,6 +39,10 @@ public:
         return products;
     }
 
+    void clear(){
+        products.clear();
+    }
+
 private:
     map<Gadget *, int> products;
 

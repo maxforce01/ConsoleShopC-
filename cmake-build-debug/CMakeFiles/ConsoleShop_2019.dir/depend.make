@@ -4,7 +4,9 @@
 CMakeFiles/ConsoleShop_2019.dir/main.cpp.o: ../libs/json/single_include/nlohmann/json.hpp
 CMakeFiles/ConsoleShop_2019.dir/main.cpp.o: ../main.cpp
 CMakeFiles/ConsoleShop_2019.dir/main.cpp.o: ../main/commands/AddItemCommand.h
+CMakeFiles/ConsoleShop_2019.dir/main.cpp.o: ../main/commands/AllOrdersCommand.h
 CMakeFiles/ConsoleShop_2019.dir/main.cpp.o: ../main/commands/AllProducts.h
+CMakeFiles/ConsoleShop_2019.dir/main.cpp.o: ../main/commands/BuyProductsCommand.h
 CMakeFiles/ConsoleShop_2019.dir/main.cpp.o: ../main/commands/Command.h
 CMakeFiles/ConsoleShop_2019.dir/main.cpp.o: ../main/commands/CommandContainer.h
 CMakeFiles/ConsoleShop_2019.dir/main.cpp.o: ../main/commands/DeleteItemCommand.h
@@ -20,13 +22,16 @@ CMakeFiles/ConsoleShop_2019.dir/main.cpp.o: ../main/core/Initialize.h
 CMakeFiles/ConsoleShop_2019.dir/main.cpp.o: ../main/core/Request.h
 CMakeFiles/ConsoleShop_2019.dir/main.cpp.o: ../main/core/Util.h
 CMakeFiles/ConsoleShop_2019.dir/main.cpp.o: ../main/dao/BucketDao.h
+CMakeFiles/ConsoleShop_2019.dir/main.cpp.o: ../main/dao/OrderDao.h
 CMakeFiles/ConsoleShop_2019.dir/main.cpp.o: ../main/dao/ProductDao.h
 CMakeFiles/ConsoleShop_2019.dir/main.cpp.o: ../main/entity/Gadget.h
+CMakeFiles/ConsoleShop_2019.dir/main.cpp.o: ../main/entity/Order.h
 CMakeFiles/ConsoleShop_2019.dir/main.cpp.o: ../main/entity/Phone.h
 CMakeFiles/ConsoleShop_2019.dir/main.cpp.o: ../main/entity/SmartPhone.h
 CMakeFiles/ConsoleShop_2019.dir/main.cpp.o: ../main/entity/Tablet.h
 CMakeFiles/ConsoleShop_2019.dir/main.cpp.o: ../main/serialize/SerializeProduct.h
 CMakeFiles/ConsoleShop_2019.dir/main.cpp.o: ../main/serialize/Serializer.h
 CMakeFiles/ConsoleShop_2019.dir/main.cpp.o: ../main/service/BucketService.h
+CMakeFiles/ConsoleShop_2019.dir/main.cpp.o: ../main/service/OrderService.h
 CMakeFiles/ConsoleShop_2019.dir/main.cpp.o: ../main/service/ProductService.h
 

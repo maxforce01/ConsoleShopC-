@@ -350,9 +350,25 @@ Command.h
 ../entity/Tablet.h
 /home/maxforce01/Документы/ConsoleShop-2019/main/entity/Tablet.h
 
+/home/maxforce01/Документы/ConsoleShop-2019/main/commands/AllOrdersCommand.h
+Command.h
+/home/maxforce01/Документы/ConsoleShop-2019/main/commands/Command.h
+../core/Context.h
+/home/maxforce01/Документы/ConsoleShop-2019/main/core/Context.h
+
 /home/maxforce01/Документы/ConsoleShop-2019/main/commands/AllProducts.h
 Command.h
 /home/maxforce01/Документы/ConsoleShop-2019/main/commands/Command.h
+
+/home/maxforce01/Документы/ConsoleShop-2019/main/commands/BuyProductsCommand.h
+Command.h
+/home/maxforce01/Документы/ConsoleShop-2019/main/commands/Command.h
+../core/Context.h
+/home/maxforce01/Документы/ConsoleShop-2019/main/core/Context.h
+../entity/Order.h
+/home/maxforce01/Документы/ConsoleShop-2019/main/entity/Order.h
+ctime
+-
 
 /home/maxforce01/Документы/ConsoleShop-2019/main/commands/Command.h
 iostream
@@ -385,6 +401,10 @@ SaveProductIntoBucket.h
 /home/maxforce01/Документы/ConsoleShop-2019/main/commands/SaveProductIntoBucket.h
 ShowBucketCommand.h
 /home/maxforce01/Документы/ConsoleShop-2019/main/commands/ShowBucketCommand.h
+BuyProductsCommand.h
+/home/maxforce01/Документы/ConsoleShop-2019/main/commands/BuyProductsCommand.h
+AllOrdersCommand.h
+/home/maxforce01/Документы/ConsoleShop-2019/main/commands/AllOrdersCommand.h
 
 /home/maxforce01/Документы/ConsoleShop-2019/main/commands/DeleteItemCommand.h
 Command.h
@@ -439,6 +459,8 @@ utility
 /home/maxforce01/Документы/ConsoleShop-2019/main/service/ProductService.h
 ../service/BucketService.h
 /home/maxforce01/Документы/ConsoleShop-2019/main/service/BucketService.h
+../service/OrderService.h
+/home/maxforce01/Документы/ConsoleShop-2019/main/service/OrderService.h
 
 /home/maxforce01/Документы/ConsoleShop-2019/main/core/Controller.h
 utility
@@ -480,6 +502,12 @@ map
 ../entity/Gadget.h
 /home/maxforce01/Документы/ConsoleShop-2019/main/entity/Gadget.h
 
+/home/maxforce01/Документы/ConsoleShop-2019/main/dao/OrderDao.h
+vector
+-
+../entity/Order.h
+/home/maxforce01/Документы/ConsoleShop-2019/main/entity/Order.h
+
 /home/maxforce01/Документы/ConsoleShop-2019/main/dao/ProductDao.h
 map
 /home/maxforce01/Документы/ConsoleShop-2019/main/dao/map
@@ -497,6 +525,8 @@ string
 -
 utility
 -
+
+/home/maxforce01/Документы/ConsoleShop-2019/main/entity/Order.h
 
 /home/maxforce01/Документы/ConsoleShop-2019/main/entity/Phone.h
 Gadget.h
@@ -521,12 +551,18 @@ utility
 /home/maxforce01/Документы/ConsoleShop-2019/main/serialize/Serializer.h
 SerializeProduct.h
 /home/maxforce01/Документы/ConsoleShop-2019/main/serialize/SerializeProduct.h
+../entity/Order.h
+/home/maxforce01/Документы/ConsoleShop-2019/main/entity/Order.h
 vector
 -
 
 /home/maxforce01/Документы/ConsoleShop-2019/main/service/BucketService.h
 ../dao/BucketDao.h
 /home/maxforce01/Документы/ConsoleShop-2019/main/dao/BucketDao.h
+
+/home/maxforce01/Документы/ConsoleShop-2019/main/service/OrderService.h
+../dao/OrderDao.h
+/home/maxforce01/Документы/ConsoleShop-2019/main/dao/OrderDao.h
 
 /home/maxforce01/Документы/ConsoleShop-2019/main/service/ProductService.h
 ../dao/ProductDao.h

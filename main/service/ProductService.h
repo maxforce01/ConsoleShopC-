@@ -46,9 +46,10 @@ public:
         return productDao->find(id);
     }
 
-    int getProductCount(long id){
+    int getProductCount(long id) {
         return productDao->findCountById(id);
     }
+
 
 private:
     ProductDao *productDao;
@@ -62,5 +63,6 @@ private:
         }
         return max;
     }
+
 };
 

@@ -21,7 +21,19 @@ public:
     }
 
     void addProduct(Gadget *car, int count) {
-        productDao->add(car,count);
+        productDao->add(car, count);
+    }
+
+    int getPayAmount() {
+        int amount = 0;
+        for (auto product: productDao->findAll()) {
+            amount += product.first->getPrice() * product.second;
+        }
+        return amount;
+    }
+
+    void clear() {
+        productDao->clear();
     }
 
 private:

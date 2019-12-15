@@ -5,7 +5,9 @@ CMakeFiles/ConsoleShop_2019.dir/main.cpp.o
  /home/maxforce01/Документы/ConsoleShop-2019/libs/json/single_include/nlohmann/json.hpp
  /home/maxforce01/Документы/ConsoleShop-2019/main.cpp
  /home/maxforce01/Документы/ConsoleShop-2019/main/commands/AddItemCommand.h
+ /home/maxforce01/Документы/ConsoleShop-2019/main/commands/AllOrdersCommand.h
  /home/maxforce01/Документы/ConsoleShop-2019/main/commands/AllProducts.h
+ /home/maxforce01/Документы/ConsoleShop-2019/main/commands/BuyProductsCommand.h
  /home/maxforce01/Документы/ConsoleShop-2019/main/commands/Command.h
  /home/maxforce01/Документы/ConsoleShop-2019/main/commands/CommandContainer.h
  /home/maxforce01/Документы/ConsoleShop-2019/main/commands/DeleteItemCommand.h
@@ -21,12 +23,15 @@ CMakeFiles/ConsoleShop_2019.dir/main.cpp.o
  /home/maxforce01/Документы/ConsoleShop-2019/main/core/Request.h
  /home/maxforce01/Документы/ConsoleShop-2019/main/core/Util.h
  /home/maxforce01/Документы/ConsoleShop-2019/main/dao/BucketDao.h
+ /home/maxforce01/Документы/ConsoleShop-2019/main/dao/OrderDao.h
  /home/maxforce01/Документы/ConsoleShop-2019/main/dao/ProductDao.h
  /home/maxforce01/Документы/ConsoleShop-2019/main/entity/Gadget.h
+ /home/maxforce01/Документы/ConsoleShop-2019/main/entity/Order.h
  /home/maxforce01/Документы/ConsoleShop-2019/main/entity/Phone.h
  /home/maxforce01/Документы/ConsoleShop-2019/main/entity/SmartPhone.h
  /home/maxforce01/Документы/ConsoleShop-2019/main/entity/Tablet.h
  /home/maxforce01/Документы/ConsoleShop-2019/main/serialize/SerializeProduct.h
  /home/maxforce01/Документы/ConsoleShop-2019/main/serialize/Serializer.h
  /home/maxforce01/Документы/ConsoleShop-2019/main/service/BucketService.h
+ /home/maxforce01/Документы/ConsoleShop-2019/main/service/OrderService.h
  /home/maxforce01/Документы/ConsoleShop-2019/main/service/ProductService.h

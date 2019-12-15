@@ -87,6 +87,12 @@
 		<Unit filename="/home/maxforce01/Документы/ConsoleShop-2019/main.cpp">
 			<Option target="ConsoleShop_2019"/>
 		</Unit>
+		<Unit filename="/home/maxforce01/Документы/ConsoleShop-2019/main/commands/AllOrdersCommand.h">
+			<Option target="ConsoleShop_2019"/>
+		</Unit>
+		<Unit filename="/home/maxforce01/Документы/ConsoleShop-2019/main/commands/BuyProductsCommand.h">
+			<Option target="ConsoleShop_2019"/>
+		</Unit>
 		<Unit filename="/home/maxforce01/Документы/ConsoleShop-2019/main/commands/DeleteItemCommand.h">
 			<Option target="ConsoleShop_2019"/>
 		</Unit>
@@ -103,6 +109,9 @@
 			<Option target="ConsoleShop_2019"/>
 		</Unit>
 		<Unit filename="/home/maxforce01/Документы/ConsoleShop-2019/main/core/Util.h">
+			<Option target="ConsoleShop_2019"/>
+		</Unit>
+		<Unit filename="/home/maxforce01/Документы/ConsoleShop-2019/main/service/OrderService.h">
 			<Option target="ConsoleShop_2019"/>
 		</Unit>
 		<Unit filename="/home/maxforce01/Документы/ConsoleShop-2019/CMakeLists.txt">
